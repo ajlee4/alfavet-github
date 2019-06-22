@@ -1,8 +1,8 @@
 'use strict';
 
-$('.menu-btn').on('click', function (e) {
+$('.js-menu-open').on('click', function (e) {
   e.preventDefault();
-  $(this).toggleClass('menu-btn_active');
+  $(this).toggleClass('burger-close');
   $('.menu').toggleClass('menu_active');
   $('body').toggleClass('menu-opened');
   $('.mobile-menu').toggleClass('visible');
